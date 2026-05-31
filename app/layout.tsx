@@ -16,21 +16,27 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const professionalTitle =
+  "Customer Experience, Quality & Operational Excellence Professional";
+
+const siteDescription =
+  "Customer Experience, Quality & Operational Excellence Professional focused on SLA Analytics, Process Improvement, Support Quality and AI-Assisted Quality Evaluation.";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://frtky.com"),
+  metadataBase: new URL("https://www.frtky.com"),
 
   title: {
-    default: "Fırat Kaya | Quality Operations Specialist",
+    default: `Fırat Kaya | ${professionalTitle}`,
     template: "%s | Fırat Kaya",
   },
 
-  description:
-    "Quality Operations Specialist focused on Customer Experience, SLA Analytics, Process Improvement, Support Quality and AI-Assisted Quality Evaluation.",
+  description: siteDescription,
 
   keywords: [
     "Fırat Kaya",
-    "Quality Operations",
     "Customer Experience",
+    "Quality Operations",
+    "Operational Excellence",
     "Support Operations",
     "Support Quality",
     "Quality Assurance",
@@ -53,10 +59,9 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Fırat Kaya | Quality Operations Specialist",
-    description:
-      "Quality Operations, Customer Experience, SLA Analytics, Process Improvement and AI-Assisted Quality Evaluation.",
-    url: "https://frtky.com",
+    title: `Fırat Kaya | ${professionalTitle}`,
+    description: siteDescription,
+    url: "https://www.frtky.com",
     siteName: "Fırat Kaya",
     locale: "en_US",
     type: "website",
@@ -65,16 +70,15 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Fırat Kaya - Quality Operations Specialist",
+        alt: `Fırat Kaya - ${professionalTitle}`,
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Fırat Kaya | Quality Operations Specialist",
-    description:
-      "Quality Operations, Customer Experience, SLA Analytics and Process Improvement.",
+    title: `Fırat Kaya | ${professionalTitle}`,
+    description: siteDescription,
     images: ["/og-image.png"],
   },
 };

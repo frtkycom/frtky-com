@@ -1,7 +1,13 @@
 import { MetadataRoute } from "next";
+import { projects } from "@/data/projects";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://frtky.com";
+
+  const projectPages = projects.map((project) => ({
+    url: `${baseUrl}/projects/${project.slug}`,
+    lastModified: new Date(),
+  }));
 
   return [
     {
@@ -24,5 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/contact`,
       lastModified: new Date(),
     },
+
+    ...projectPages,
   ];
 }

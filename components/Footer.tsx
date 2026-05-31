@@ -11,10 +11,7 @@ export default function Footer() {
             </h3>
 
             <p className="mt-4 text-sm leading-7 text-zinc-400">
-              Quality Operations Specialist focused on
-              Customer Experience, SLA Analytics,
-              Process Improvement and AI-Assisted
-              Quality Evaluation.
+              Customer Experience, Quality & Operational Excellence Professional focused on SLA Analytics, Process Improvement and AI-Assisted Quality Evaluation.
             </p>
           </div>
 

@@ -10,7 +10,7 @@ export default function Hero() {
       </h1>
 
       <h2 className="mt-6 text-2xl text-zinc-300 md:text-3xl">
-        Quality Operations Specialist
+        Customer Experience, Quality & Operational Excellence Professional
       </h2>
 
       <p className="mt-8 max-w-3xl text-xl leading-relaxed text-zinc-400">

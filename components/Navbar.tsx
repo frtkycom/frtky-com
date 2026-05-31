@@ -27,7 +27,7 @@ export default function Navbar() {
           <div className="leading-tight">
             <div className="font-semibold text-white">Fırat Kaya</div>
             <div className="text-xs text-slate-400">
-              Quality Operations Specialist
+              Customer Experience, Quality & Operational Excellence Professional
             </div>
           </div>
         </Link>
